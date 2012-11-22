@@ -1,0 +1,3 @@
+"#action": {
+	systemButton: Ti.UI.iPhone.SystemButton.ACTION
+}

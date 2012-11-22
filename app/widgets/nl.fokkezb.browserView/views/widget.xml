@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="window">
+		<WebView id="webView" />
+	</Window>
+	<Button id="action" />
+</Alloy>
