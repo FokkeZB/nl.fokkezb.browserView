@@ -3,7 +3,7 @@ var args = arguments[0] || {};
 $.window.rightNavButton = $.action;
 
 $.action.on('click', function () {
-	// TODO: OptionsDialog (of nieuw IOS sheet) > Los widget of module???
+	Ti.Platform.openURL($.webView.url);
 });
 
 $.webView.on('load', function (e) {
