@@ -2,11 +2,11 @@ var args = arguments[0] || {};
 
 $.window.rightNavButton = $.action;
 
-$.action.on('click', function () {
+$.action.addEventListener('click', function () {
 	Ti.Platform.openURL($.webView.url);
 });
 
-$.webView.on('load', function (e) {
+$.webView.addEventListener('load', function (e) {
 	var title = $.webView.evalJS('document.title');
 	
 	if (typeof title === 'string' && title.length > 0) {

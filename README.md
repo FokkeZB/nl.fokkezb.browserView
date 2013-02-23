@@ -39,3 +39,7 @@ win.open();
 ```xml
 <Widget src="nl.fokkezb.browserView" url="http://appcelerator.com" />
 ```
+
+## Changelog
+* 1.0.1: Fixed for Alloy 1.0GA
+* 1.0: Initial version
